@@ -1,0 +1,17 @@
+[FORMAT]
+
+max-line-length=80
+
+[DESIGN]
+
+max-args=4
+
+[REFACTORING]
+
+max-nested-blocks=2
+max-statements=15
+
+[MESSAGES CONTROL]
+
+disable=C0111  ; Disable missing docstring warning (My "useful" rule)
+               ; Would it seriously be better to have a docstring on e.g. every test?
